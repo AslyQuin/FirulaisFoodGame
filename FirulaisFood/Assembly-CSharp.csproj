@@ -70,10 +70,14 @@
     <Compile Include="Assets\script\InventarioNevera.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\kenney_ui-pack-pixel-adventure\License.txt" />
-    <None Include="Assets\kenney_ui-pack-pixel-adventure\Tilesheets\Small tiles\Tilesheet.txt" />
-    <None Include="Assets\MaterialsKitchen\License.txt" />
-    <None Include="Assets\kenney_ui-pack-pixel-adventure\Tilesheets\Large tiles\Tilesheet.txt" />
+    <None Include="Assets\Food\PixelFood\Free_pixel_food_16x16\Note from the artist.txt" />
+    <None Include="Assets\UIpack\License.txt" />
+    <None Include="Assets\cursor\License.txt" />
+    <None Include="Assets\UIpack\Tilesheets\Small tiles\Tilesheet.txt" />
+    <None Include="Assets\Kitchen\License.txt" />
+    <None Include="Assets\UIpack\Tilesheets\Large tiles\Tilesheet.txt" />
+    <None Include="Assets\cursor\Tilesheet.txt" />
+    <None Include="Assets\UIpack\Paper UI\License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

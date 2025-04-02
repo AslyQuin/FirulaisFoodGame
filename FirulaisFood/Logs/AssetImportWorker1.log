@@ -1,0 +1,647 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.39f1 (15ea7ed0b100) revision 1436286'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'es' Physical Memory: 16294 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.39f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/AslyQ/Desktop/FirulaisFoodGame/FirulaisFood
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56063
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/AslyQ/Desktop/FirulaisFoodGame/FirulaisFood
+C:/Users/AslyQ/Desktop/FirulaisFoodGame/FirulaisFood
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17516]  Target information:
+
+Player connection [17516]  * "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3358189926 [EditorId] 3358189926 [Version] 1048832 [Id] WindowsEditor(7,Asly) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17516] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17516] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.39f1 (15ea7ed0b100)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/AslyQ/Desktop/FirulaisFoodGame/FirulaisFood/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6029 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004506 seconds.
+- Loaded All Assemblies, in  0.500 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.406 seconds
+Domain Reload Profiling: 902ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (179ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (406ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.975 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.871 seconds
+Domain Reload Profiling: 1836ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (648ms)
+		LoadAssemblies (473ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (306ms)
+			TypeCache.Refresh (226ms)
+				TypeCache.ScanAssembly (207ms)
+			BuildScriptInfoCaches (62ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (871ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (675ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5963 unused Assets / (6.9 MB). Loaded Objects now: 6607.
+Memory consumption went from 157.0 MB to 150.1 MB.
+Total: 11.760800 ms (FindLiveObjects: 0.928700 ms CreateObjectMapping: 0.618400 ms MarkObjects: 5.780400 ms  DeleteObjects: 4.432100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 352865.247971 seconds.
+  path: Assets/Portraits/Erika 4.png
+  artifactKey: Guid(9549c3f38ce582b469d6a28f8fb593c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portraits/Erika 4.png using Guid(9549c3f38ce582b469d6a28f8fb593c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abb65e05c8c0492b9e6cf6ede9d356a5') in 0.0779072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Portraits
+  artifactKey: Guid(2475e58bdf131544fa0b834fc1f852ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portraits using Guid(2475e58bdf131544fa0b834fc1f852ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a974ddb014c3a86c7be4584959c62d3') in 0.0007955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Portraits/Erika 7.png
+  artifactKey: Guid(6bc69d9fabbf3c64aa53e9bf9baaaad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portraits/Erika 7.png using Guid(6bc69d9fabbf3c64aa53e9bf9baaaad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eed839c0fba3747f099aa78786e18aad') in 0.0167398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Portraits/Erika 5.png
+  artifactKey: Guid(b0cb0bb700b5fe94290a02deb5fd0108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Portraits/Erika 5.png using Guid(b0cb0bb700b5fe94290a02deb5fd0108) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b547db0a61bbffc13177e4bedc2a0f70') in 0.015923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 724.277427 seconds.
+  path: Assets/character/character_dog.fbx
+  artifactKey: Guid(c3f6f734ebcfe294f83fb99a9bbb4de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/character/character_dog.fbx using Guid(c3f6f734ebcfe294f83fb99a9bbb4de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8f3aee0cfbe011a0486dcc24f315c18') in 0.6156459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.291957 seconds.
+  path: Assets/Audio/back_002.ogg
+  artifactKey: Guid(48487c609822b7249bc4a78404c5b0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/back_002.ogg using Guid(48487c609822b7249bc4a78404c5b0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '110627989006875967bd348a65df9a30') in 0.0527502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Audio/close_004.ogg
+  artifactKey: Guid(cf4840652654b7d4ea65703cfca433f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/close_004.ogg using Guid(cf4840652654b7d4ea65703cfca433f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '685171f4001c1d9b9e4390da9d0314ea') in 0.0138374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Audio/maximize_006.ogg
+  artifactKey: Guid(82c37235442496c49a6aee93ca776e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/maximize_006.ogg using Guid(82c37235442496c49a6aee93ca776e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c912872ba88e16afd3b14f9144d85967') in 0.01241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Audio/glitch_004.ogg
+  artifactKey: Guid(ed513bde23e822a42ac0d98f943a48d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/glitch_004.ogg using Guid(ed513bde23e822a42ac0d98f943a48d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '954ca754ed9a324d97c5e85874a53979') in 0.0133517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/minimize_005.ogg
+  artifactKey: Guid(cdb7add9e0bd3214cad0617d31d6c3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/minimize_005.ogg using Guid(cdb7add9e0bd3214cad0617d31d6c3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bff1fd4fec26825a3330491616b6c04f') in 0.013737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/click_001.ogg
+  artifactKey: Guid(d257eb0990fc7324c8d6ff7d9af95158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/click_001.ogg using Guid(d257eb0990fc7324c8d6ff7d9af95158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab1759ab86054da5f4deb2717b719b0b') in 0.0123796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/minimize_001.ogg
+  artifactKey: Guid(5ff9225eb5450bd4fb59400d04bf87ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/minimize_001.ogg using Guid(5ff9225eb5450bd4fb59400d04bf87ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffc49acae27bb0da1464c7c829a33266') in 0.0127685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/confirmation_004.ogg
+  artifactKey: Guid(156b426f4d86fd54ba0964c24c5f7720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/confirmation_004.ogg using Guid(156b426f4d86fd54ba0964c24c5f7720) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd449c84049aad52124ffa0239d474e82') in 0.0151299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Audio/glass_003.ogg
+  artifactKey: Guid(c2ef969641334b5468bdfd9452e6011e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/glass_003.ogg using Guid(c2ef969641334b5468bdfd9452e6011e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2431962c1615dea374746509905825c0') in 0.0136575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Audio/confirmation_001.ogg
+  artifactKey: Guid(1d2b1f21cc3db9a4fa24a94e011423c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/confirmation_001.ogg using Guid(1d2b1f21cc3db9a4fa24a94e011423c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74d82cbc65e667c5dbe1aa95be171e9d') in 0.0140271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Audio/close_002.ogg
+  artifactKey: Guid(93dd20838070bdb4a996105f98961c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/close_002.ogg using Guid(93dd20838070bdb4a996105f98961c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fad91c660f9ec8d1223b8662bb9dbf1d') in 0.0139466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Audio/click_002.ogg
+  artifactKey: Guid(e0a79e5235c1903499dc4dcf291dfa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/click_002.ogg using Guid(e0a79e5235c1903499dc4dcf291dfa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '217d881f233736db90c98a0094d8fd70') in 0.017237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Audio/maximize_009.ogg
+  artifactKey: Guid(7e012096de5752940b9247b7ff70c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/maximize_009.ogg using Guid(7e012096de5752940b9247b7ff70c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '606db2f7810da9e89dfb4e5e6c4aaec8') in 0.0136576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Audio/maximize_001.ogg
+  artifactKey: Guid(7ca0e548d3a2bd54c89b32ac5946ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/maximize_001.ogg using Guid(7ca0e548d3a2bd54c89b32ac5946ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6920078de455733c4ca147d3178da9a') in 0.0716673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Audio/glass_006.ogg
+  artifactKey: Guid(e7bfb1a120ae1e9459a6f3401dca8876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/glass_006.ogg using Guid(e7bfb1a120ae1e9459a6f3401dca8876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd35817bcb177eee72e0548e5502488e1') in 0.0129704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/minimize_004.ogg
+  artifactKey: Guid(0305a51e1d78dd84bba93fba115c2ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/minimize_004.ogg using Guid(0305a51e1d78dd84bba93fba115c2ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7866c11f4aa7b1694a6f39a8763c7b6e') in 0.0132565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/close_003.ogg
+  artifactKey: Guid(318456256baa0be488f2e7297d286e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/close_003.ogg using Guid(318456256baa0be488f2e7297d286e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a2351472a37cc6601b409fac53ed21c') in 0.0142969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Audio/back_004.ogg
+  artifactKey: Guid(3020939306785c64f99c1e9b2f217d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/back_004.ogg using Guid(3020939306785c64f99c1e9b2f217d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d2b2ca2f8531f6aaf168bfe8d010a47') in 0.0149961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/error_007.ogg
+  artifactKey: Guid(58334f3200850c848bbe6a13012bbeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/error_007.ogg using Guid(58334f3200850c848bbe6a13012bbeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cf89e686af0826ffeee2c36e44bb6ae') in 0.0143143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Audio/minimize_002.ogg
+  artifactKey: Guid(a2ce2892b3f3c9440946a2be34aac544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/minimize_002.ogg using Guid(a2ce2892b3f3c9440946a2be34aac544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7c535d13b4270bc8758836135b06bf8') in 0.0150107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Audio/glitch_001.ogg
+  artifactKey: Guid(ae788cdf9d084704db9cc35995b7d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/glitch_001.ogg using Guid(ae788cdf9d084704db9cc35995b7d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cff1042d9e8379f04aa92bceabc5d2d') in 0.0149565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/minimize_003.ogg
+  artifactKey: Guid(6d3c3ce1564a14943968eaceb171ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/minimize_003.ogg using Guid(6d3c3ce1564a14943968eaceb171ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '832e12c419fde95befea61089afcbf56') in 0.0152664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Audio/maximize_003.ogg
+  artifactKey: Guid(6e5c0be9231dcd64eae399b94e384074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/maximize_003.ogg using Guid(6e5c0be9231dcd64eae399b94e384074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4537ed4b2781812cc8e7307bd29d7015') in 0.0139251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/maximize_005.ogg
+  artifactKey: Guid(cdace12b364df8c43abeb5b91b2a60c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/maximize_005.ogg using Guid(cdace12b364df8c43abeb5b91b2a60c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '295012e43b3a1b8fec221e4fbd442d40') in 0.0149277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/maximize_008.ogg
+  artifactKey: Guid(d176ad1e0150e624fbd0383daf745db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/maximize_008.ogg using Guid(d176ad1e0150e624fbd0383daf745db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f47ca4ba75bca24f09805e9ba944f984') in 0.0153175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Audio/minimize_006.ogg
+  artifactKey: Guid(cb01dfc16c520694d9ec0e53735efc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/minimize_006.ogg using Guid(cb01dfc16c520694d9ec0e53735efc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4037e52d55684bc427652f18df763d3') in 0.0144522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Audio/drop_002.ogg
+  artifactKey: Guid(c72485c16152bfc49908f9f8d8a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/drop_002.ogg using Guid(c72485c16152bfc49908f9f8d8a3402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e5fc8cc9768b1be285fec9a8aafe555') in 0.0147577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061077 seconds.
+  path: Assets/Audio/minimize_008.ogg
+  artifactKey: Guid(022131630d8a90146ba6190bdb0d13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/minimize_008.ogg using Guid(022131630d8a90146ba6190bdb0d13f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da0f8b895f4b922b80beb1574a24eb08') in 0.0142931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Audio/question_003.ogg
+  artifactKey: Guid(8a2599191ad3f8645be1be87360d0141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/question_003.ogg using Guid(8a2599191ad3f8645be1be87360d0141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3e96d5143646f871bfc9afff1d28cae') in 0.0126079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/open_003.ogg
+  artifactKey: Guid(f1e0d7b8b64f22341a1b679df7c569e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/open_003.ogg using Guid(f1e0d7b8b64f22341a1b679df7c569e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97e3a7e80cebf5b20ac14e2099a4c9bc') in 0.0150976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Audio/scratch_001.ogg
+  artifactKey: Guid(a62ed72edc15dd249934d71fb576ea03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/scratch_001.ogg using Guid(a62ed72edc15dd249934d71fb576ea03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2cafc113e5437f69362d832e8f477b0') in 0.0145527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/scratch_002.ogg
+  artifactKey: Guid(c984d40db3bdbcc4f9011de2addee822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/scratch_002.ogg using Guid(c984d40db3bdbcc4f9011de2addee822) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfc206f86d149df1c4210e15e0744faa') in 0.0135538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Audio/scratch_005.ogg
+  artifactKey: Guid(eadbc75003aa6ef45b1c34aac5cae5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/scratch_005.ogg using Guid(eadbc75003aa6ef45b1c34aac5cae5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39e750558177449e0a681450329acef8') in 0.0139083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Audio/open_004.ogg
+  artifactKey: Guid(881e719992c158a4abf0052053cc0253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/open_004.ogg using Guid(881e719992c158a4abf0052053cc0253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2447ec1779aafbace221c8c379f7f833') in 0.0134545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Audio/question_001.ogg
+  artifactKey: Guid(7a25d217299017b4b969a767dbc1ae59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/question_001.ogg using Guid(7a25d217299017b4b969a767dbc1ae59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23334439f93108f82e42165575a5393c') in 0.014216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/scratch_004.ogg
+  artifactKey: Guid(ff43033ec8571724089c3bf8cc946653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/scratch_004.ogg using Guid(ff43033ec8571724089c3bf8cc946653) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62ca20feceaa292fa586377aac66d608') in 0.0143897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Audio/switch_001.ogg
+  artifactKey: Guid(d77943f5b1a84c04ca721b8b0c72982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/switch_001.ogg using Guid(d77943f5b1a84c04ca721b8b0c72982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a62c4efbda16f4f92281f9f2f838766') in 0.0136321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/tick_001.ogg
+  artifactKey: Guid(39936e2600adde44bbffdfbf09facb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/tick_001.ogg using Guid(39936e2600adde44bbffdfbf09facb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '865dfec5e1282f91782ded0035d43a36') in 0.0168605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Audio/tick_004.ogg
+  artifactKey: Guid(d7bb30dc6f5edb84485a561d872b1e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/tick_004.ogg using Guid(d7bb30dc6f5edb84485a561d872b1e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb3db1ddab3ea0f48f2e79d6c67514c6') in 0.0144036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/tick_002.ogg
+  artifactKey: Guid(57e8b219d22214a4d8592f40f9310d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/tick_002.ogg using Guid(57e8b219d22214a4d8592f40f9310d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f5290131537dedc44a3f16b59959f6') in 0.0150447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Audio/select_002.ogg
+  artifactKey: Guid(ac70563c29d8a084f87362229ced577e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/select_002.ogg using Guid(ac70563c29d8a084f87362229ced577e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aba98e7ad1fbd312fd9f4972672e003') in 0.0154007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Audio/scroll_005.ogg
+  artifactKey: Guid(4e3f900a44f13e34289cabca201e9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/scroll_005.ogg using Guid(4e3f900a44f13e34289cabca201e9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f874e9302921d371bc48f511b6c09c8') in 0.0142603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Audio/switch_006.ogg
+  artifactKey: Guid(5eea16d5dee3a724d9a05f8854a7bc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/switch_006.ogg using Guid(5eea16d5dee3a724d9a05f8854a7bc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e61cc04c1f0f6dffeb5ed735a08756f') in 0.0152315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Audio/switch_002.ogg
+  artifactKey: Guid(c9c2f78c9912fea44a34dc6a71ebcbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/switch_002.ogg using Guid(c9c2f78c9912fea44a34dc6a71ebcbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a7a43f9defec518cbda813b630b7c3d') in 0.017365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/switch_007.ogg
+  artifactKey: Guid(664e6c34dc0cf734f9cab34214b62a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/switch_007.ogg using Guid(664e6c34dc0cf734f9cab34214b62a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e238384e9c5ef8c8620ed435b5e653e8') in 0.0142934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/scroll_001.ogg
+  artifactKey: Guid(1e34f4fd88f08e04f9e1202504c82046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/scroll_001.ogg using Guid(1e34f4fd88f08e04f9e1202504c82046) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99ec9d4043707ba279240473b1502d85') in 0.0145777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Audio/toggle_002.ogg
+  artifactKey: Guid(f17a098004804ee4a820b0b0cb2e8385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/toggle_002.ogg using Guid(f17a098004804ee4a820b0b0cb2e8385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '617153449ab9003cc477bfdc9d3fd20f') in 0.014631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Audio/select_006.ogg
+  artifactKey: Guid(a78ea761250accf4e9cc16f46e0877d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/select_006.ogg using Guid(a78ea761250accf4e9cc16f46e0877d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b9310f5ae87bbd8caa4f5b16a09238b') in 0.0156249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Audio/scroll_003.ogg
+  artifactKey: Guid(5b9a1743217fc434b89f467010ac8f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/scroll_003.ogg using Guid(5b9a1743217fc434b89f467010ac8f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e6c7c786dd9fad2890f43c0aed26386') in 0.0143194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 416.410836 seconds.
+  path: Assets/UIpack/Paper UI/1 Sprites/Book Desk/2.png
+  artifactKey: Guid(182ac15c127468844a5b06a511cfd498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIpack/Paper UI/1 Sprites/Book Desk/2.png using Guid(182ac15c127468844a5b06a511cfd498) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0b89137e44fb401e1f5072ca6898a2e') in 0.0185572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UIpack/Paper UI/1 Sprites/Book Desk/5.png
+  artifactKey: Guid(030e689702261a24dbbbe614af88697c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIpack/Paper UI/1 Sprites/Book Desk/5.png using Guid(030e689702261a24dbbbe614af88697c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbecb2672da4db5b1989e6f391c46d15') in 0.0140804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UIpack/Paper UI/1 Sprites/Book Desk/7.png
+  artifactKey: Guid(c158178de2f6a3246b6375ea968b6924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIpack/Paper UI/1 Sprites/Book Desk/7.png using Guid(c158178de2f6a3246b6375ea968b6924) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '674b25bbe59715c9c4efc40ca83c307d') in 0.0143007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Assets\script\Move.cs" />
     <Compile Include="Assets\script\PickUpObject.cs" />
+    <Compile Include="Assets\script\InventarioNevera.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\kenney_ui-pack-pixel-adventure\License.txt" />

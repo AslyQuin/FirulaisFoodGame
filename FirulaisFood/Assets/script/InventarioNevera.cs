@@ -1,26 +1,38 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class InventarioNevera : MonoBehaviour
 {
-    public GameObject mensajeTexto; // Arrastra el objeto de texto aquí en el Inspector
-    private bool jugadorCerca = false; // Variable para detectar al jugador
+    private Queue<GameObject> objetosGuardados = new Queue<GameObject>(); // Cola de objetos almacenados
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("character_dog"))
+        if (other.CompareTag("character_dog")) // Asegúrate de que el tag es correcto
         {
-            jugadorCerca = true;
-            mensajeTexto.SetActive(true); // Mostrar mensaje
+            Debug.Log("Personaje dentro de la ZonaNevera");
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    public void GuardarObjeto(GameObject objeto)
     {
-        if (other.CompareTag("character_dog"))
+        objetosGuardados.Enqueue(objeto); // Guardar objeto en la cola
+        objeto.SetActive(false); // Ocultarlo en la escena
+        Debug.Log("Objeto guardado en la nevera: " + objeto.name);
+    }
+
+    public GameObject SacarObjeto()
+    {
+        if (objetosGuardados.Count > 0)
         {
-            jugadorCerca = false;
-            mensajeTexto.SetActive(false); // Ocultar mensaje
+            GameObject objeto = objetosGuardados.Dequeue();
+            objeto.SetActive(true); // Hacerlo visible
+            Debug.Log("Objeto recuperado de la nevera: " + objeto.name);
+            return objeto;
+        }
+        else
+        {
+            Debug.Log("La nevera está vacía.");
+            return null;
         }
     }
 }
-

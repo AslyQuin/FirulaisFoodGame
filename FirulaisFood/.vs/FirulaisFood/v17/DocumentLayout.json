@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\usuario\\Documents\\GitHub\\Firu\\FirulaisFood\\",
+  "WorkspaceRootPath": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\firu\\firulaisfood\\assets\\script\\pickupobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\assets\\script\\pickupobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pickupobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\Firu\\FirulaisFood\\Library\\PackageCache\\com.unity.render-pipelines.universal@0b68ece7aa54\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\firuli\\firulaisfood\\assets\\script\\inventarionevera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\inventarionevera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\firuli\\firulaisfood\\assets\\script\\zonainteraccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\zonainteraccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\assets\\script\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Library\\PackageCache\\com.unity.render-pipelines.universal@0b68ece7aa54\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@0b68ece7aa54\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Documents\\GitHub\\Firu\\FirulaisFood\\assets\\script\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\assets\\script\\musicafondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF13C83F-B2F5-95F1-D788-024AD1A5F23B}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\musicafondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ZonaInteraccion.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Assets\\script\\ZonaInteraccion.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\ZonaInteraccion.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Assets\\script\\ZonaInteraccion.cs",
+              "RelativeToolTip": "Assets\\script\\ZonaInteraccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:25:45.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MusicaFondo.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Assets\\script\\MusicaFondo.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\MusicaFondo.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Assets\\script\\MusicaFondo.cs",
+              "RelativeToolTip": "Assets\\script\\MusicaFondo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T02:51:38.31Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "InventarioNevera.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Assets\\script\\InventarioNevera.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\InventarioNevera.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Assets\\script\\InventarioNevera.cs",
+              "RelativeToolTip": "Assets\\script\\InventarioNevera.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T02:35:05.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Lit.shader",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Firu\\FirulaisFood\\Library\\PackageCache\\com.unity.render-pipelines.universal@0b68ece7aa54\\Shaders\\Lit.shader",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Library\\PackageCache\\com.unity.render-pipelines.universal@0b68ece7aa54\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@0b68ece7aa54\\Shaders\\Lit.shader",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Firu\\FirulaisFood\\Library\\PackageCache\\com.unity.render-pipelines.universal@0b68ece7aa54\\Shaders\\Lit.shader",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Library\\PackageCache\\com.unity.render-pipelines.universal@0b68ece7aa54\\Shaders\\Lit.shader",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@0b68ece7aa54\\Shaders\\Lit.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-03-24T21:47:04.668Z"
+              "WhenOpened": "2025-03-24T21:47:04.668Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PickUpObject.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Firu\\FirulaisFood\\Assets\\script\\PickUpObject.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Assets\\script\\PickUpObject.cs",
               "RelativeDocumentMoniker": "Assets\\script\\PickUpObject.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Firu\\FirulaisFood\\Assets\\script\\PickUpObject.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Assets\\script\\PickUpObject.cs",
               "RelativeToolTip": "Assets\\script\\PickUpObject.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAqwCsAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T21:34:42.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Move.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Firu\\FirulaisFood\\Assets\\script\\Move.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Assets\\script\\Move.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Move.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Firu\\FirulaisFood\\Assets\\script\\Move.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Firuli\\FirulaisFood\\Assets\\script\\Move.cs",
               "RelativeToolTip": "Assets\\script\\Move.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T20:37:22.59Z"
+              "WhenOpened": "2025-03-24T20:37:22.59Z",
+              "EditorCaption": ""
             }
           ]
         }

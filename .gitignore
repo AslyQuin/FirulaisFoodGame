@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignorar archivos generados por Unity
+Library/
+Logs/
+Temp/
+Obj/
+Build/
+Builds/
+UserSettings/

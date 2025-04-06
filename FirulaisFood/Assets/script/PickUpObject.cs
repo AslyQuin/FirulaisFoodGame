@@ -2,38 +2,46 @@ using UnityEngine;
 
 public class PickUpObject : MonoBehaviour
 {
-    public Transform hand; // Referencia a la mano del jugador
-    private GameObject heldObject = null; // Objeto que se sostiene en la mano
+    public Transform hand; // Mano del jugador
+    private GameObject heldObject = null;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) // Presiona "E" para recoger o soltar
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if (heldObject == null)
             {
-                TryPickUp(); // Si no hay objeto en la mano, intenta agarrar uno
+                TryPickUp();
             }
             else
             {
-                DropObject(); // Si ya hay un objeto en la mano, suéltalo
+                DropObject();
             }
         }
     }
 
     void TryPickUp()
     {
-        Collider[] objects = Physics.OverlapSphere(transform.position, 2f); // Detecta objetos cercanos
+        Collider[] objects = Physics.OverlapSphere(transform.position, 2f);
         foreach (Collider obj in objects)
         {
-            if (obj.CompareTag("Pickable")) // Si el objeto es "Pickable"
+            if (obj.CompareTag("Pickable"))
             {
                 heldObject = obj.gameObject;
-                heldObject.transform.SetParent(hand); // Se asigna a la mano
+                heldObject.transform.SetParent(hand);
                 heldObject.transform.localPosition = Vector3.zero;
                 heldObject.transform.localRotation = Quaternion.identity;
-                heldObject.GetComponent<Rigidbody>().isKinematic = true; // Desactiva la física
+                heldObject.GetComponent<Rigidbody>().isKinematic = true;
+
                 Debug.Log("Objeto recogido: " + heldObject.name);
-                return; // Sale después de recoger un objeto
+
+                InterfazControl ui = FindFirstObjectByType<InterfazControl>();
+                if (ui != null)
+                {
+                    ui.TacharSprite(heldObject.name);
+                }
+
+                return;
             }
         }
     }
@@ -49,8 +57,6 @@ public class PickUpObject : MonoBehaviour
         }
     }
 
-    // ✅ NUEVAS FUNCIONES PARA INTERACTUAR CON LA NEVERA
-
     public GameObject GetHeldObject()
     {
         return heldObject;
@@ -63,7 +69,6 @@ public class PickUpObject : MonoBehaviour
             heldObject.transform.SetParent(null);
             heldObject.GetComponent<Rigidbody>().isKinematic = false;
             heldObject = null;
-            Debug.Log("Objeto eliminado de la mano.");
         }
     }
 
